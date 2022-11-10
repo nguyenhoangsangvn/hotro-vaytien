@@ -9,7 +9,6 @@ export default function Home() {
 		<Head>
 			<meta charset='UTF-8' />
 			<meta name='viewport' content='width=device-width, initial-scale=1.0' />
-			<meta name="google-site-verification" content="Mb0kPZVsIQfYXHWJ_CI3-6efFkKp4mv9vsvBEJAH0q0" />
 			<link rel="icon" href="/logo.png" />
 			<title>Tư vấn tài chính miễn phí</title>
 		</Head>
@@ -23,15 +22,14 @@ export default function Home() {
 			<Row style={{marginBottom:'50px'}}>
 				<Alert variant="light">
 					<Alert.Heading>Xin chào!</Alert.Heading>
-					Bấm <Alert.Link href="#"><b>BẮT ĐẦU NGAY </b></Alert.Link>
+					Bấm <Alert.Link href="#">BẮT ĐẦU NGAY</Alert.Link>
 					để tìm kiếm khoản vay phù hợp cho bạn.
 					<p>Chúng tôi sẽ dựa trên thông tin mà bạn cung cấp để tìm ra gói vay thích hợp</p>					
 				</Alert>		
 				<Row  className='justify-content-center'>
-					<Col sm={2} xs={6}>
+					<Col sm={3} xs={8}>
 						<Row>
-							<Button variant="danger" href='https://taichinhzz.com' target="_blank" fontSize="24px" >BẮT ĐẦU NGAY</Button>
-							
+							<Button variant="primary" href='https://taichinhzz.com' target="_blank" fontSize="24px" size='lg' ><b>BẮT ĐẦU NGAY</b></Button>							
 						</Row>
 					</Col>
 				</Row>
