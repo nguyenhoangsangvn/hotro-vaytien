@@ -14,7 +14,8 @@ export default function Home() {
 		</Head>
 		<Row className='justify-content-center'>
       		<Row style={{marginBottom:'50px'}}>	
-			  <h1 style={{textAlign:'center', fontSize: '22px', color:'pink'}}>100% KHÔNG PHÍ TRƯỚC SAU</h1>		
+			<p></p>	
+			  <h1 style={{textAlign:'center', fontSize: '22px', color:'black'}}><b>100% KHÔNG PHÍ TRƯỚC SAU</b></h1>		
 				<a  href="#" target="_blank">
 					<Card.Img variant="top" src="/image/mcredit_baner-min.png" />
 				</a>
@@ -22,9 +23,8 @@ export default function Home() {
 			<Row style={{marginBottom:'50px'}}>
 				<Alert variant="light">
 					<Alert.Heading>Xin chào!</Alert.Heading>
-					Bấm <Alert.Link href="#">BẮT ĐẦU NGAY</Alert.Link>
-					để tìm kiếm khoản vay phù hợp cho bạn.
-					<p>Chúng tôi sẽ dựa trên thông tin mà bạn cung cấp để tìm ra gói vay thích hợp</p>					
+					Bấm <b>BẮT ĐẦU NGAY</b> để tìm kiếm các khoản vay phù hợp với bạn.
+					<p>Chúng tôi sẽ dựa trên thông tin mà bạn cung cấp để tìm ra gói vay thích hợp với bạn nhất</p>					
 				</Alert>		
 				<Row  className='justify-content-center'>
 					<Col sm={3} xs={8}>
@@ -35,9 +35,10 @@ export default function Home() {
 				</Row>
 			</Row>
 			<hr />
-			<Row className="justify-content-center">
+			<Row className="justify-content-center" >
 				<Alert.Heading variant='light'>
-					Mở tài khoản ngân hàng (ATM) miễn phí 👇
+					<a style={{fontSize:'17px'}}>1. Mở tài khoản ngân hàng (ATM) miễn phí 👇</a>
+					<p class="text-danger" style={{fontSize:'13px'}}>Lưu ý: Chọn Ngân hàng và bấm vào ảnh của Ngân hàng đó để Đăng ký </p>
 				</Alert.Heading>
 			</Row>
 			<Row style={{marginBottom:'50px'}} className="justify-content-center">
@@ -69,45 +70,51 @@ export default function Home() {
 						</a>
 					</Row>
 				</Col>
-				
+				<hr />
 			</Row>
-			<Row style={{marginBottom:'50px'}}>			
-				<a  href="#" target="_blank">
-					<Card.Img variant="top" src="/image/home-banner.png" />
-				</a>
-			</Row>
-
 			<Row style={{marginBottom:'50px'}} className="justify-content-md-center">
+			<Alert.Heading variant='light'>
+					<a style={{fontSize:'18px'}}>2. Các khoản vay nhanh - Giải ngân trong ngày 👇 </a>
+					<p class="text-danger" style={{fontSize:'13px'}}>Lưu ý: Chọn khoản vay và bấm vào ảnh của khoản vay đó để lên hồ sơ </p>
+					
+				</Alert.Heading>	
 				<Col sm={3} xs={6}>
 					<Row>
-						<a  href="#" target="_blank">
-							<Figure.Image alt="165x165" src="/image/VI-DIEN-TU-VNPAY.png"/>
+						<a  href="https://shorten.asia/7qZNtPkh" target="_blank">
+							<Figure.Image alt="165x165" src="/image/10TRIEU.png"/>
 						</a>
 					</Row>
 				</Col>
 				<Col sm={3} xs={6}>
 					<Row>
-						<a  href="#" target="_blank">
-							<Figure.Image alt="165x165" src="/image/NGAN-HANG-SO-TP-BANK.png"/>
+						<a  href="https://shorten.asia/FGkQtTdv" target="_blank">
+							<Figure.Image alt="165x165" src="/image/20TRIEU.png"/>
 						</a>
 					</Row>
 				</Col>
 				<Col sm={3} xs={6}>
 					<Row>
-						<a  href="#" target="_blank">
-							<Figure.Image alt="165x165" src="/image/MO-THE-TIN-DUNG.png"/>
+						<a  href="https://shorten.asia/DQ2p496d" target="_blank">
+							<Figure.Image alt="165x165" src="/image/30TRIEU.png"/>
 						</a>
 					</Row>
 				</Col>				
 				<Col sm={3} xs={6}>
 					<Row>
-						<a  href="#" target="_blank">
-							<Figure.Image alt="165x165" src="/image/Ngan-hang-dien-tu-Techcombank.png"/>
+						<a  href="https://shorten.asia/TK9P1DfQ " target="_blank">
+							<Figure.Image alt="165x165" src="/image/50TRIEU.png"/>
 						</a>
 					</Row>
 				</Col>
 			</Row>		
 		</Row>
+		<Row className="justify-content-center" style={{marginBottom:'50px'}}>		
+			<Alert.Heading variant='light'>
+				</Alert.Heading>	
+				<a  href="#" target="_blank">
+					<Card.Img variant="top" src="/image/home-banner.png" />
+				</a>
+			</Row>
 	</Container>
   )
 }
