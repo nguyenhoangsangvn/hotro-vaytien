@@ -15,7 +15,7 @@ export default function Home() {
 		</Head>
 		<Row className='justify-content-center'>
       		<Row style={{marginBottom:'50px'}}>	
-			  <h1 style={{textAlign:'center', fontSize: '22px'}}>100% KHÔNG PHÍ TRƯỚC SAU</h1>		
+			  <h1 style={{textAlign:'center', fontSize: '22px', color:'pink'}}>100% KHÔNG PHÍ TRƯỚC SAU</h1>		
 				<a  href="#" target="_blank">
 					<Card.Img variant="top" src="/image/mcredit_baner-min.png" />
 				</a>
