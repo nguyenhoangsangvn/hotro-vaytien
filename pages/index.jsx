@@ -38,13 +38,13 @@ export default function Home() {
 			<Row className="justify-content-center" >
 				<Alert.Heading variant='light'>
 					<a style={{fontSize:'17px'}}>1. Các GÓI VAY chỉ bằng CMND và ATM 👇</a>
-					<p class="text-danger" style={{fontSize:'13px'}}>Lưu ý: Chọn khoản vay và bấm vào ảnh của khoản vay đó để lên hồ sơ </p>
+					<p class="text-danger" style={{fontSize:'13px'}}>Lưu ý: Chọn gói vay nào thì bấm vào ảnh của gói vay đó để lên hồ sơ </p>
 				</Alert.Heading>
 			</Row>
 			<Row className="justify-content-center" style={{marginBottom:'20px'}}>		
 			<Alert.Heading variant='light'>
 				</Alert.Heading>	
-				<a  href="#" target="_blank">
+				<a  href="https://l.linklyhq.com/l/um7U" target="_blank">
 					<Card.Img variant="top" src="/image/MB.png" />
 				</a>
 			</Row>
