@@ -1,15 +1,15 @@
 import '../styles/globals.css'
 import type { AppProps } from 'next/app'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Inter,Roboto,Roboto_Flex } from '@next/font/google'
+import { Roboto, Roboto_Flex, Roboto_Mono, Roboto_Serif, Roboto_Slab,} from '@next/font/google'
 
-const roboto_Flex = Roboto_Flex({
+const roboto = Roboto({
   weight: '400',
 })
 
 export default function App({ Component, pageProps }: AppProps) {
   return(
-        <main className={roboto_Flex.className}>
+        <main className={roboto.className}>
           <Component {...pageProps} />
         </main>)
 }
