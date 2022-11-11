@@ -34,7 +34,7 @@ export default function Home() {
 					</Col>
 				</Row>
 			</Row>
-			<hr />
+			
 			<Row className="justify-content-center" >
 				<Alert.Heading variant='light'>
 					<a style={{fontSize:'17px'}}>1. Các GÓI VAY chỉ bằng CMND và ATM 👇</a>
@@ -80,7 +80,7 @@ export default function Home() {
 				</Col>
 			</Row>
 			<Row style={{marginBottom:'5px'}} className="justify-content-md-center">
-			<hr/>
+			
 			<Alert.Heading variant='light'>
 					<a style={{fontSize:'18px'}}>2. Mở tài khoản Ngân hàng (ATM) miễn phí👇 </a>
 					<p class="text-danger" style={{fontSize:'13px'}}>Lưu ý: Chọn Ngân hàng và bấm vào ảnh của Ngân hàng đó để Đăng ký </p>					
