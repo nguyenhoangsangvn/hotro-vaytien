@@ -2,6 +2,7 @@ import Head from 'next/head'
 import React from 'react'
 import { Row, Container, Button, Col, Alert,Card } from 'react-bootstrap'
 import { Figure } from 'react-bootstrap'
+import Form from 'react-bootstrap/Form';
 
 export default function Home() {
   return (
@@ -28,12 +29,14 @@ export default function Home() {
 				<Alert variant="light">
 					<Alert.Heading>Xin chào!</Alert.Heading>
 					Bấm <b>BẮT ĐẦU NGAY</b> để tìm kiếm các khoản vay phù hợp với bạn.
-					<p>Chúng tôi sẽ dựa trên thông tin mà bạn cung cấp để tìm ra gói vay thích hợp với bạn nhất</p>					
+					<p>Chúng tôi sẽ dựa trên thông tin mà bạn cung cấp để tìm ra gói vay thích hợp với bạn nhất</p>	
+
+
 				</Alert>		
 				<Row  className='justify-content-center'>
 					<Col sm={3} xs={8}>
 						<Row>
-							<Button variant="primary" href='https://taichinhzz.com' target="_blank" fontSize="24px" >BẮT ĐẦU NGAY</Button>							
+							<Button variant="primary" href='https://shorten.asia/bkT8ggUr' target="_blank" fontSize="18px" >BẮT ĐẦU NGAY</Button>							
 						</Row>
 					</Col>
 				</Row>
@@ -52,7 +55,7 @@ export default function Home() {
 			<Row className="justify-content-center" style={{marginBottom:'20px'}}>		
 			<Alert.Heading variant='light'>
 				</Alert.Heading>	
-				<a  href="https://www.hotro-vaytien.online/vay-tien-mb-bank" target="_blank">
+				<a  href="https://l.linklyhq.com/l/um7U" target="_blank">
 					<Card.Img variant="top" src="/image/MB.png" />
 				</a>
 			</Row>

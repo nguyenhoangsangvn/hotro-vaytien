@@ -2,6 +2,7 @@ import Head from 'next/head'
 import React from 'react'
 import { Row, Container, Button, Col, Alert,Card } from 'react-bootstrap'
 import { Figure } from 'react-bootstrap'
+import Form from 'react-bootstrap/Form';
 
 export default function Home() {
   return (
