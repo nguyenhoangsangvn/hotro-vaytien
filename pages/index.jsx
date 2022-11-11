@@ -13,14 +13,14 @@ export default function Home() {
 			<title>Tư vấn tài chính miễn phí</title>
 		</Head>
 		<Row className='justify-content-center'>
-      		<Row style={{marginBottom:'50px'}}>	
+      		<Row style={{marginBottom:'30px'}}>	
 			<p></p>	
 			  <h1 style={{textAlign:'center', fontSize: '22px', color:'black'}}><b>100% KHÔNG PHÍ TRƯỚC SAU</b></h1>		
 				<a  href="#" target="_blank">
 					<Card.Img variant="top" src="/image/mcredit_baner-min.png" />
 				</a>
 			</Row>
-			<Row style={{marginBottom:'50px'}}>
+			<Row style={{marginBottom:'30px'}}>
 				<Alert variant="light">
 					<Alert.Heading>Xin chào!</Alert.Heading>
 					Bấm <b>BẮT ĐẦU NGAY</b> để tìm kiếm các khoản vay phù hợp với bạn.
@@ -70,9 +70,9 @@ export default function Home() {
 						</a>
 					</Row>
 				</Col>
-				<hr />
 			</Row>
-			<Row style={{marginBottom:'50px'}} className="justify-content-md-center">
+			<Row style={{marginBottom:'5px'}} className="justify-content-md-center">
+			<hr/>
 			<Alert.Heading variant='light'>
 					<a style={{fontSize:'18px'}}>2. Các khoản vay nhanh - Giải ngân trong ngày 👇 </a>
 					<p class="text-danger" style={{fontSize:'13px'}}>Lưu ý: Chọn khoản vay và bấm vào ảnh của khoản vay đó để lên hồ sơ </p>
