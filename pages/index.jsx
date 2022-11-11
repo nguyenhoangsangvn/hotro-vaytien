@@ -34,10 +34,10 @@ export default function Home() {
 					</Col>
 				</Row>
 			</Row>
-			
+			<hr/>
 			<Row className="justify-content-center" >
 				<Alert.Heading variant='light'>
-					<p class="text-secondary" style={{fontSize:'17px'}}><b>1. Các gói vay chỉ bằng CMND và ATM 👇</b></p>
+					<a class="text-secondary" style={{fontSize:'16px', textDecoration:'none' }}><b>1. Các gói vay chỉ bằng CMND và ATM 👇</b></a>
 					<p class="text-danger" style={{fontSize:'13px'}}>Lưu ý: Chọn gói vay nào thì bấm vào ảnh của gói vay đó để lên hồ sơ </p>
 				</Alert.Heading>
 			</Row>
@@ -82,7 +82,7 @@ export default function Home() {
 			<Row style={{marginBottom:'5px'}} className="justify-content-md-center">
 			
 			<Alert.Heading variant='light'>
-					<p class="text-secondary" style={{fontSize:'18px'}}><b>2. Mở tài khoản Ngân hàng (ATM) miễn phí👇</b> </p>
+					<a class="text-secondary" style={{fontSize:'16px', textDecoration:'none'}}><b>2. Mở tài khoản Ngân hàng (ATM) miễn phí👇</b> </a>
 					<p class="text-danger" style={{fontSize:'13px'}}>Lưu ý: Chọn Ngân hàng và bấm vào ảnh của Ngân hàng đó để Đăng ký </p>					
 				</Alert.Heading>	
 				<Col sm={3} xs={6}>
