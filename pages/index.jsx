@@ -43,7 +43,7 @@ export default function Home() {
 			{/*TIÊU ĐỀ 1*/} 
 			<Row className="justify-content-center" >
 				<Alert.Heading variant='light'>
-					<a class="text-secondary" style={{fontSize:'16px', textDecoration:'none' }}><b>1. Các gói vay chỉ bằng CMND và ATM 👇</b></a>
+					<a class="text-secondary" style={{fontSize:'16px', textDecoration:'none' }}><b>1. Các gói vay bằng CMND và ATM 👇</b></a>
 					<p class="text-danger" style={{fontSize:'13px'}}><i>Lưu ý: Chọn gói vay nào thì bấm vào ảnh của gói vay đó để lên hồ sơ</i> </p>
 				</Alert.Heading>
 			</Row>
