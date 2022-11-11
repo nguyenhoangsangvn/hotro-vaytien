@@ -1,16 +1,16 @@
 import '../styles/globals.css'
 import type { AppProps } from 'next/app'
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import { Roboto} from '@next/font/google'
+import {Roboto, Inter} from '@next/font/google'
 
-// const roboto = Roboto({
-//   weight: '400',
-// })
+const inter = Inter({
+weight: '500',
+})
 
 export default function App({ Component, pageProps }: AppProps) {
   return(
-        // <main className={roboto.className}>
+        <main className={inter.className}>
           <Component {...pageProps} />
-        // </main>
+        </main>
         )
 }

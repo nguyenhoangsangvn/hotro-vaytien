@@ -33,7 +33,7 @@ export default function Home() {
 				<Row  className='justify-content-center'>
 					<Col sm={3} xs={8}>
 						<Row>
-							<Button variant="primary" href='https://taichinhzz.com' target="_blank" fontSize="24px" size='lg' ><b>BẮT ĐẦU NGAY</b></Button>							
+							<Button variant="primary" href='https://taichinhzz.com' target="_blank" fontSize="24px" >BẮT ĐẦU NGAY</Button>							
 						</Row>
 					</Col>
 				</Row>
@@ -43,8 +43,8 @@ export default function Home() {
 			{/*TIÊU ĐỀ 1*/} 
 			<Row className="justify-content-center" >
 				<Alert.Heading variant='light'>
-					<a class="text-secondary" style={{fontSize:'16px', textDecoration:'none' }}><b>1. Các gói vay bằng CMND và ATM 👇</b></a>
-					<p class="text-danger" style={{fontSize:'13px'}}><i>Lưu ý: Chọn gói vay nào thì bấm vào ảnh của gói vay đó để lên hồ sơ</i> </p>
+					<a style={{fontSize:'16px', textDecoration:'none' }}>1. Các gói vay bằng CMND và ATM 👇</a>
+					<p class="text-danger" style={{fontSize:'14px'}}>Lưu ý: Chọn gói vay nào thì bấm vào ảnh của gói vay đó để lên hồ sơ</p>
 				</Alert.Heading>
 			</Row>
 
@@ -93,8 +93,8 @@ export default function Home() {
 			{/*GÓI VAY <5 TRIỆU*/}
 			<Row style={{marginBottom:'5px'}} className="justify-content-md-center">			
 			<Alert.Heading variant='light'>
-					<a class="text-secondary" style={{fontSize:'16px', textDecoration:'none'}}><b>2. Các khoản vay nhanh dưới 5 triệu👇</b> </a>
-					<p class="text-danger" style={{fontSize:'13px'}}><i>Lưu ý: Chọn gói vay nào thì bấm vào ảnh của gói vay đó để lên hồ sơ</i></p>					
+					<a style={{fontSize:'16px', textDecoration:'none'}}>2. Các khoản vay nhanh dưới 5 triệu👇 </a>
+					<p class="text-danger" style={{fontSize:'14px'}}>Lưu ý: Chọn gói vay nào thì bấm vào ảnh của gói vay đó để lên hồ sơ</p>					
 				</Alert.Heading>	
 				<Col sm={3} xs={6}>
 					<Row>
@@ -130,8 +130,8 @@ export default function Home() {
 			{/*MỞ THẺ ATM*/}	
 			<Row style={{marginBottom:'5px'}} className="justify-content-md-center">			
 			<Alert.Heading variant='light'>
-					<a class="text-secondary" style={{fontSize:'16px', textDecoration:'none'}}><b>3. Mở tài khoản Ngân hàng (ATM) miễn phí👇</b> </a>
-					<p class="text-danger" style={{fontSize:'13px'}}><i>Lưu ý: Chọn Ngân hàng và bấm vào ảnh của Ngân hàng đó để Đăng ký </i></p>					
+					<a style={{fontSize:'16px', textDecoration:'none'}}>3. Mở tài khoản NH (ATM) miễn phí👇</a>
+					<p class="text-danger" style={{fontSize:'14px'}}>Lưu ý: Chọn Ngân hàng và bấm vào ảnh của Ngân hàng đó để Đăng ký</p>					
 				</Alert.Heading>	
 				<Col sm={3} xs={6}>
 					<Row>
