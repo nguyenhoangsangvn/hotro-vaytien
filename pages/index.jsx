@@ -37,10 +37,18 @@ export default function Home() {
 			<hr />
 			<Row className="justify-content-center" >
 				<Alert.Heading variant='light'>
-					<a style={{fontSize:'17px'}}>1. Mở tài khoản ngân hàng (ATM) miễn phí 👇</a>
-					<p class="text-danger" style={{fontSize:'13px'}}>Lưu ý: Chọn Ngân hàng và bấm vào ảnh của Ngân hàng đó để Đăng ký </p>
+					<a style={{fontSize:'17px'}}>1. Các GÓI VAY chỉ bằng CMND và ATM 👇</a>
+					<p class="text-danger" style={{fontSize:'13px'}}>Lưu ý: Chọn khoản vay và bấm vào ảnh của khoản vay đó để lên hồ sơ </p>
 				</Alert.Heading>
 			</Row>
+			<Row className="justify-content-center" style={{marginBottom:'20px'}}>		
+			<Alert.Heading variant='light'>
+				</Alert.Heading>	
+				<a  href="#" target="_blank">
+					<Card.Img variant="top" src="/image/MB.png" />
+				</a>
+			</Row>
+
 			<Row style={{marginBottom:'50px'}} className="justify-content-center">
 				<Col sm={3} xs={6}>
 					<Row>
@@ -74,9 +82,8 @@ export default function Home() {
 			<Row style={{marginBottom:'5px'}} className="justify-content-md-center">
 			<hr/>
 			<Alert.Heading variant='light'>
-					<a style={{fontSize:'18px'}}>2. Các khoản vay nhanh - Giải ngân trong ngày 👇 </a>
-					<p class="text-danger" style={{fontSize:'13px'}}>Lưu ý: Chọn khoản vay và bấm vào ảnh của khoản vay đó để lên hồ sơ </p>
-					
+					<a style={{fontSize:'18px'}}>2. Mở tài khoản Ngân hàng (ATM) miễn phí👇 </a>
+					<p class="text-danger" style={{fontSize:'13px'}}>Lưu ý: Chọn Ngân hàng và bấm vào ảnh của Ngân hàng đó để Đăng ký </p>					
 				</Alert.Heading>	
 				<Col sm={3} xs={6}>
 					<Row>
