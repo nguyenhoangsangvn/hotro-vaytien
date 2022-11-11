@@ -44,8 +44,44 @@ export default function Home() {
 			<Row style={{marginBottom:'50px'}} className="justify-content-center">
 				<Col sm={3} xs={6}>
 					<Row>
+						<a  href="https://shorten.asia/7qZNtPkh " target="_blank">
+						<Figure.Image alt="165x165" src="/image/10TRIEU.png"/>
+						</a>
+					</Row>
+				</Col>
+				<Col sm={3} xs={6}>
+					<Row>
+						<a  href="https://shorten.asia/FGkQtTdv " target="_blank">
+							<Figure.Image alt="165x165" src="/image/20TRIEU.png"/>
+						</a>
+					</Row>
+				</Col>
+				<Col sm={3} xs={6}>
+					<Row>
+						<a  href="https://shorten.asia/DQ2p496d " target="_blank">
+							<Figure.Image alt="165x165" src="/image/30TRIEU.png"/>
+						</a>
+					</Row>
+				</Col>
+				<Col sm={3} xs={6}>
+					<Row>
+						<a  href="https://shorten.asia/TK9P1DfQ" target="_blank">
+							<Figure.Image alt="165x165" src="/image/50TRIEU.png"/>
+						</a>
+					</Row>
+				</Col>
+			</Row>
+			<Row style={{marginBottom:'5px'}} className="justify-content-md-center">
+			<hr/>
+			<Alert.Heading variant='light'>
+					<a style={{fontSize:'18px'}}>2. Các khoản vay nhanh - Giải ngân trong ngày 👇 </a>
+					<p class="text-danger" style={{fontSize:'13px'}}>Lưu ý: Chọn khoản vay và bấm vào ảnh của khoản vay đó để lên hồ sơ </p>
+					
+				</Alert.Heading>	
+				<Col sm={3} xs={6}>
+					<Row>
 						<a  href="https://mfast.vn/tnex/510863" target="_blank">
-						<Figure.Image alt="165x165" src="/image/NGAN-HANG-SO-TNEX.png"/>
+							<Figure.Image alt="165x165" src="/image/NGAN-HANG-SO-TNEX.png"/>
 						</a>
 					</Row>
 				</Col>
@@ -62,47 +98,11 @@ export default function Home() {
 							<Figure.Image alt="165x165" src="/image/NGAN-HANG-SO-TPBANK.png"/>
 						</a>
 					</Row>
-				</Col>
-				<Col sm={3} xs={6}>
-					<Row>
-						<a  href="https://l.linklyhq.com/l/um7U" target="_blank">
-							<Figure.Image alt="165x165" src="/image/KREDIVO.png"/>
-						</a>
-					</Row>
-				</Col>
-			</Row>
-			<Row style={{marginBottom:'5px'}} className="justify-content-md-center">
-			<hr/>
-			<Alert.Heading variant='light'>
-					<a style={{fontSize:'18px'}}>2. Các khoản vay nhanh - Giải ngân trong ngày 👇 </a>
-					<p class="text-danger" style={{fontSize:'13px'}}>Lưu ý: Chọn khoản vay và bấm vào ảnh của khoản vay đó để lên hồ sơ </p>
-					
-				</Alert.Heading>	
-				<Col sm={3} xs={6}>
-					<Row>
-						<a  href="https://shorten.asia/7qZNtPkh" target="_blank">
-							<Figure.Image alt="165x165" src="/image/10TRIEU.png"/>
-						</a>
-					</Row>
-				</Col>
-				<Col sm={3} xs={6}>
-					<Row>
-						<a  href="https://shorten.asia/FGkQtTdv" target="_blank">
-							<Figure.Image alt="165x165" src="/image/20TRIEU.png"/>
-						</a>
-					</Row>
-				</Col>
-				<Col sm={3} xs={6}>
-					<Row>
-						<a  href="https://shorten.asia/DQ2p496d" target="_blank">
-							<Figure.Image alt="165x165" src="/image/30TRIEU.png"/>
-						</a>
-					</Row>
 				</Col>				
 				<Col sm={3} xs={6}>
 					<Row>
-						<a  href="https://shorten.asia/TK9P1DfQ " target="_blank">
-							<Figure.Image alt="165x165" src="/image/50TRIEU.png"/>
+						<a  href="https://l.linklyhq.com/l/um7U " target="_blank">
+							<Figure.Image alt="165x165" src="/image/KREDIVO.png"/>
 						</a>
 					</Row>
 				</Col>
