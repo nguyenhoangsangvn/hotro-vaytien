@@ -52,7 +52,7 @@ export default function Home() {
 			<Row className="justify-content-center" style={{marginBottom:'20px'}}>		
 			<Alert.Heading variant='light'>
 				</Alert.Heading>	
-				<a  href="https://l.linklyhq.com/l/um7U" target="_blank">
+				<a  href="https://www.hotro-vaytien.online/vay-tien-mb-bank" target="_blank">
 					<Card.Img variant="top" src="/image/MB.png" />
 				</a>
 			</Row>
