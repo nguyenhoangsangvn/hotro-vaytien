@@ -176,7 +176,7 @@ export default function Home() {
       </Card.Body>
 </Card>
 <Card style={{paddingLeft:'0',paddingRight:'0'}}>
-      <Card.Img variant="top" src="/image/6TRIEU.png" />
+      <Card.Img variant="top" src="/image/6trieu.png" />
       <Card.Body>
 	  <Card.Title className={styles.font}><b>VAY 6.000.000</b></Card.Title>
 	  <Card.Text className={styles.chitiet}>
