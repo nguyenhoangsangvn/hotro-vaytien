@@ -1,7 +1,7 @@
 import '../styles/globals.css'
 import type { AppProps } from 'next/app'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Roboto, Inter_Tight} from '@next/font/google'
+import {Roboto} from '@next/font/google'
 
 const roboto = Roboto({
 weight: '400',
