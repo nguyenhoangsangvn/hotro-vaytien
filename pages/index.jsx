@@ -208,7 +208,7 @@ export default function Home() {
 
 </Card>
 <Card style={{paddingLeft:'0',paddingRight:'0'}}>
-      <Card.Img variant="top" src="/image/CAKE.png" />
+      <Card.Img variant="top" src="/image/cake.png" />
       <Card.Body>
 	  <Card.Title className={styles.font}><b>NGÂN HÀNG SỐ CAKE</b></Card.Title>
 	  <Card.Text className={styles.chitiet}>
