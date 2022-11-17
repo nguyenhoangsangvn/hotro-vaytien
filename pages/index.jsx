@@ -49,7 +49,7 @@ export default function Home() {
 </Row>
 {/*4 GÓI VAY > 10 TRIỆU*/} 					
 <Row xs={1} md={4} className="g-4">
-<Card>
+<Card style={{paddingLeft:'0',paddingRight:'0'}}>
       <Card.Img variant="top" src="/image/dtd.jpg"/>
       <Card.Body>
         <Card.Title className={styles.font}><b>VAY 10.000.000</b></Card.Title>
@@ -63,8 +63,8 @@ export default function Home() {
       </Card.Body>
 
 </Card>
-<Card>
-      <Card.Img variant="top" src="/image/20TRIEU.PNG" />
+<Card style={{paddingLeft:'0',paddingRight:'0'}}>
+      <Card.Img variant="top" src="/image/20TRIEU.png" />
       <Card.Body>
 	  <Card.Title className={styles.font}><b>VAY 20.000.000</b></Card.Title>
 	  <Card.Text className={styles.chitiet}>
@@ -76,8 +76,8 @@ export default function Home() {
         <Button variant="primary" href='https://shorten.asia/FGkQtTdv'>Chọn khoản vay này</Button> {/*Senmo*/}
       </Card.Body>
 </Card>
-<Card>
-      <Card.Img variant="top" src="/image/30TRIEU.PNG" />
+<Card style={{paddingLeft:'0',paddingRight:'0'}}>
+      <Card.Img variant="top" src="/image/30TRIEU.png" />
       <Card.Body>
 	  <Card.Title className={styles.font}><b>VAY 30.000.000</b></Card.Title>
 	  <Card.Text className={styles.chitiet}>
@@ -89,8 +89,8 @@ export default function Home() {
         <Button variant="primary" href='https://shorten.asia/DQ2p496d'>Chọn khoản vay này</Button> {/*Jeff*/}
       </Card.Body>
 </Card>
-<Card>
-      <Card.Img variant="top" src="/image/50TRIEU.PNG" />
+<Card style={{paddingLeft:'0',paddingRight:'0'}}>
+      <Card.Img variant="top" src="/image/50TRIEU.png" />
       <Card.Body>
 	  <Card.Title className={styles.font}><b>VAY 50.000.000</b></Card.Title>
 	  <Card.Text className={styles.chitiet}>
@@ -114,8 +114,8 @@ export default function Home() {
 <h7 className={styles.luuy}>Lưu ý: Chọn gói vay nào thì bấm vào Chọn khoản vay đó để lên hồ sơ</h7>	
 </Row>
 <Row xs={1} md={4} className="g-4">
-<Card>
-      <Card.Img variant="top" src="/image/20TRIEU.PNG" />
+<Card style={{paddingLeft:'0',paddingRight:'0'}}>
+      <Card.Img variant="top" src="/image/20TRIEU.png" />
       <Card.Body>
 	  <Card.Title className={styles.font}><b>VAY 1 - 20.000.000</b></Card.Title>
 	  <Card.Text className={styles.chitiet}>
@@ -126,8 +126,8 @@ export default function Home() {
         <Button variant="primary" href='https://shorten.asia/bkT8ggUr'>Chọn khoản vay này</Button> {/*crezu*/}
       </Card.Body>
 </Card>
-<Card>
-      <Card.Img variant="top" src="/image/1T.PNG"/>
+<Card style={{paddingLeft:'0',paddingRight:'0'}}>
+      <Card.Img variant="top" src="/image/1T.png"/>
       <Card.Body>
         <Card.Title className={styles.font}><b>VAY 1.000.000</b></Card.Title>
         <Card.Text className={styles.chitiet}>
@@ -139,8 +139,8 @@ export default function Home() {
       </Card.Body>
 
 </Card>
-<Card>
-      <Card.Img variant="top" src="/image/2T.PNG" />
+<Card style={{paddingLeft:'0',paddingRight:'0'}}>
+      <Card.Img variant="top" src="/image/2T.png" />
       <Card.Body>
 	  <Card.Title className={styles.font}><b>VAY 2.000.000</b></Card.Title>
 	  <Card.Text className={styles.chitiet}>
@@ -151,8 +151,8 @@ export default function Home() {
         <Button variant="primary" href='https://shorten.asia/FGkQtTdv'>Chọn khoản vay này</Button> {/*Senmo*/}
       </Card.Body>
 </Card>
-<Card>
-      <Card.Img variant="top" src="/image/3TRIEU.PNG" />
+<Card style={{paddingLeft:'0',paddingRight:'0'}}>
+      <Card.Img variant="top" src="/image/3TRIEU.png" />
       <Card.Body>
 	  <Card.Title className={styles.font}><b>VAY 3.000.000</b></Card.Title>
 	  <Card.Text className={styles.chitiet}>
@@ -163,8 +163,8 @@ export default function Home() {
         <Button variant="primary" href='https://shorten.asia/TK9P1DfQ'>Chọn khoản vay này</Button> {/*Tamo*/}
       </Card.Body>
 </Card>
-<Card>
-      <Card.Img variant="top" src="/image/5TRIEU.PNG" />
+<Card style={{paddingLeft:'0',paddingRight:'0'}}>
+      <Card.Img variant="top" src="/image/5TRIEU.png" />
       <Card.Body>
 	  <Card.Title className={styles.font}><b>VAY 5.000.000</b></Card.Title>
 	  <Card.Text className={styles.chitiet}>
@@ -175,8 +175,8 @@ export default function Home() {
         <Button variant="primary" href='https://shorten.asia/3XaAt7D3'>Chọn khoản vay này</Button> {/*robocash*/}
       </Card.Body>
 </Card>
-<Card>
-      <Card.Img variant="top" src="/image/6TRIEU.PNG" />
+<Card style={{paddingLeft:'0',paddingRight:'0'}}>
+      <Card.Img variant="top" src="/image/6TRIEU.png" />
       <Card.Body>
 	  <Card.Title className={styles.font}><b>VAY 6.000.000</b></Card.Title>
 	  <Card.Text className={styles.chitiet}>
@@ -195,8 +195,8 @@ export default function Home() {
 	<h1 className={styles.tt3}>3. Mở tài khoản Ngân hàng (ATM) miễn phí 👇</h1>
 	<h7 className={styles.luuy}>Lưu ý: Chọn Ngân hàng nào thì bấm vào ô Chọn ngân hàng này để đăng ký</h7>
 <Row xs={1} md={4} className="g-4">
-<Card>
-      <Card.Img variant="top" src="/image/MB.PNG"/>
+<Card style={{paddingLeft:'0',paddingRight:'0'}}>
+      <Card.Img variant="top" src="/image/MB.png"/>
       <Card.Body>
         <Card.Title className={styles.font}><b>NGÂN HÀNG MB BANK</b></Card.Title>
         <Card.Text className={styles.chitiet}>		
@@ -207,8 +207,8 @@ export default function Home() {
       </Card.Body>
 
 </Card>
-<Card>
-      <Card.Img variant="top" src="/image/CAKE.PNG" />
+<Card style={{paddingLeft:'0',paddingRight:'0'}}>
+      <Card.Img variant="top" src="/image/CAKE.png" />
       <Card.Body>
 	  <Card.Title className={styles.font}><b>NGÂN HÀNG SỐ CAKE</b></Card.Title>
 	  <Card.Text className={styles.chitiet}>
@@ -218,8 +218,8 @@ export default function Home() {
         <Button variant="primary" href='https://mfast.vn/cake/510863'>Chọn khoản vay này</Button> {/*Cake*/}
       </Card.Body>
 </Card>
-<Card>
-      <Card.Img variant="top" src="/image/tnex.PNG" />
+<Card style={{paddingLeft:'0',paddingRight:'0'}}>
+      <Card.Img variant="top" src="/image/tnex.png" />
       <Card.Body>
 	  <Card.Title className={styles.font}><b>NGÂN HÀNG SỐ TNEX</b></Card.Title>
 	  <Card.Text className={styles.chitiet}>
@@ -229,8 +229,8 @@ export default function Home() {
         <Button variant="primary" href='https://shorten.asia/7qZNtPkh'>Chọn khoản vay này</Button> {/*Tnex*/}
       </Card.Body>
 </Card>
-<Card>
-      <Card.Img variant="top" src="/image/vpb.PNG" />
+<Card style={{paddingLeft:'0',paddingRight:'0'}}>
+      <Card.Img variant="top" src="/image/vpb.png" />
       <Card.Body>
 	  <Card.Title className={styles.font}><b>NGÂN HÀNG VP BANK</b></Card.Title>
 	  <Card.Text className={styles.chitiet}>
