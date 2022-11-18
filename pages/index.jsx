@@ -5,8 +5,10 @@ import { Figure } from 'react-bootstrap'
 import Form from 'react-bootstrap/Form';
 import styles from '../styles/Home.module.css'
 
+
 export default function Home() {
   return (
+	
     <Container>
 		<Head>
 			<meta charset='UTF-8' />
@@ -236,7 +238,7 @@ export default function Home() {
 	  <Card.Text className={styles.chitiet}>
 		🔥Hoàn tiền không giới hạn lên tới 3%. Miễn phí chuyển khoản, miễn phí dịch vụ<br/>
         </Card.Text>
-        <Button variant="primary" href='https://mfast.vn/vpbank/510863'>Chọn ngân hàng nàyy</Button> {/*VP Bank*/}
+        <Button variant="primary" href='https://mfast.vn/vpbank/510863'>Chọn ngân hàng này</Button> {/*VP Bank*/}
       </Card.Body>
 </Card>
 </Row>	
