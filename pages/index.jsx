@@ -203,7 +203,7 @@ export default function Home() {
 		🔥Không phí duy trì và chuyển tiền<br/>
 		🔥Miễn phí số tài khoản tứ quý, số tài khoản trùng số điện thoại<br/>
         </Card.Text>
-        <Button variant="primary" href='https://mb.mfast.vn?saleCode=510863'>Chọn khoản vay này</Button> {/*MBBank*/}
+        <Button variant="primary" href='https://mb.mfast.vn?saleCode=510863'>Chọn ngân hàng này</Button> {/*MBBank*/}
       </Card.Body>
 
 </Card>
@@ -215,7 +215,7 @@ export default function Home() {
 		🔥Không phí duy trì và chuyển tiền<br/>
 		🔥Mở tài khoản ngân hàng online. Miễn phí suốt đời, không phí phát sinh<br/>
         </Card.Text>
-        <Button variant="primary" href='https://mfast.vn/cake/510863'>Chọn khoản vay này</Button> {/*Cake*/}
+        <Button variant="primary" href='https://mfast.vn/cake/510863'>Chọn ngân hàng này</Button> {/*Cake*/}
       </Card.Body>
 </Card>
 <Card style={{paddingLeft:'0',paddingRight:'0'}}>
@@ -226,7 +226,7 @@ export default function Home() {
 	  	🔥Không phí duy trì và chuyển tiền<br/>
 		🔥Mở tài khoản ngân hàng online. Miễn phí suốt đời, không phí phát sinh<br/>
         </Card.Text>
-        <Button variant="primary" href='https://shorten.asia/7qZNtPkh'>Chọn khoản vay này</Button> {/*Tnex*/}
+        <Button variant="primary" href='https://shorten.asia/7qZNtPkh'>Chọn ngân hàng này</Button> {/*Tnex*/}
       </Card.Body>
 </Card>
 <Card style={{paddingLeft:'0',paddingRight:'0'}}>
@@ -236,7 +236,7 @@ export default function Home() {
 	  <Card.Text className={styles.chitiet}>
 		🔥Hoàn tiền không giới hạn lên tới 3%. Miễn phí chuyển khoản, miễn phí dịch vụ<br/>
         </Card.Text>
-        <Button variant="primary" href='https://mfast.vn/vpbank/510863'>Chọn khoản vay này</Button> {/*VP Bank*/}
+        <Button variant="primary" href='https://mfast.vn/vpbank/510863'>Chọn ngân hàng nàyy</Button> {/*VP Bank*/}
       </Card.Body>
 </Card>
 </Row>	
