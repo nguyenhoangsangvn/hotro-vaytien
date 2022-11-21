@@ -5,10 +5,8 @@ import { Figure } from 'react-bootstrap'
 import Form from 'react-bootstrap/Form';
 import styles from '../styles/Home.module.css'
 
-
 export default function Home() {
   return (
-	
     <Container>
 		<Head>
 			<meta charset='UTF-8' />
@@ -31,13 +29,13 @@ export default function Home() {
 			<Row style={{marginBottom:'30px'}}>
 				<Alert variant="light">
 					<Alert.Heading>Xin chào!</Alert.Heading>
-					Bấm bắt đầu ngay để tìm kiếm các khoản vay phù hợp với bạn.
+					<p>Bấm bắt đầu ngay để tìm kiếm các khoản vay phù hợp với bạn.</p>
 					<p>Chúng tôi sẽ dựa trên thông tin mà bạn cung cấp để tìm ra gói vay thích hợp với bạn nhất</p>	
 				</Alert>		
 				<Row  className='justify-content-center'>
 					<Col sm={3} xs={8}>
 						<Row>
-							<Button variant="primary" href='https://shorten.asia/bkT8ggUr' target="_blank" fontSize="18px" >BẮT ĐẦU NGAY</Button>							
+							<Button variant="primary" href='https://shorten.asia/bkT8ggUr' target="_blank" fontSize="18px" >Bắt đầu ngay</Button>					
 						</Row>
 					</Col>
 				</Row>
@@ -54,7 +52,6 @@ export default function Home() {
 <Card style={{paddingLeft:'0',paddingRight:'0'}}>
       <Card.Img variant="top" src="/image/dtd.jpg"/>
       <Card.Body>
-        <Card.Title className={styles.font}><b>VAY 10.000.000</b></Card.Title>
         <Card.Text className={styles.chitiet}>
 		👉 Hỗ trợ nợ xấu - Chỉ cần CMND/CCCD và ATM<br/>
 		🔥12 Tháng: Góp 894K/O1 tháng<br/>
@@ -68,7 +65,6 @@ export default function Home() {
 <Card style={{paddingLeft:'0',paddingRight:'0'}}>
       <Card.Img variant="top" src="/image/20TRIEU.png" />
       <Card.Body>
-	  <Card.Title className={styles.font}><b>VAY 20.000.000</b></Card.Title>
 	  <Card.Text className={styles.chitiet}>
         👉 Hỗ trợ nợ xấu - Chỉ cần CMND/CCCD và ATM<br/>
 		🔥12 Tháng: Góp 1.787K/O1 tháng<br/>
@@ -81,7 +77,6 @@ export default function Home() {
 <Card style={{paddingLeft:'0',paddingRight:'0'}}>
       <Card.Img variant="top" src="/image/30TRIEU.png" />
       <Card.Body>
-	  <Card.Title className={styles.font}><b>VAY 30.000.000</b></Card.Title>
 	  <Card.Text className={styles.chitiet}>
 		👉 Hỗ trợ nợ xấu - Chỉ cần CMND/CCCD và ATM<br/>
 		🔥12 Tháng: Góp 2.680K/O1 tháng<br/>
@@ -94,7 +89,6 @@ export default function Home() {
 <Card style={{paddingLeft:'0',paddingRight:'0'}}>
       <Card.Img variant="top" src="/image/50TRIEU.png" />
       <Card.Body>
-	  <Card.Title className={styles.font}><b>VAY 50.000.000</b></Card.Title>
 	  <Card.Text className={styles.chitiet}>
 		👉 Hỗ trợ nợ xấu - Chỉ cần CMND/CCCD và ATM<br/>
 		🔥12 Tháng: Góp 4.470K/O1 tháng<br/>
@@ -119,7 +113,6 @@ export default function Home() {
 <Card style={{paddingLeft:'0',paddingRight:'0'}}>
       <Card.Img variant="top" src="/image/20TRIEU.png" />
       <Card.Body>
-	  <Card.Title className={styles.font}><b>VAY 1 - 20.000.000</b></Card.Title>
 	  <Card.Text className={styles.chitiet}>
 		👉Hỗ trợ nợ xấu - Chỉ cần CMND/CCCD và ATM<br/>
 		🔥Giải ngân nhanh sau 30 phút<br/>
@@ -131,7 +124,6 @@ export default function Home() {
 <Card style={{paddingLeft:'0',paddingRight:'0'}}>
       <Card.Img variant="top" src="/image/1T.png"/>
       <Card.Body>
-        <Card.Title className={styles.font}><b>VAY 1.000.000</b></Card.Title>
         <Card.Text className={styles.chitiet}>
 		👉Hỗ trợ nợ xấu - Chỉ cần CMND/CCCD và ATM<br/>
 		🔥Giải ngân nhanh sau 30 phút<br/>
@@ -144,7 +136,6 @@ export default function Home() {
 <Card style={{paddingLeft:'0',paddingRight:'0'}}>
       <Card.Img variant="top" src="/image/2T.png" />
       <Card.Body>
-	  <Card.Title className={styles.font}><b>VAY 2.000.000</b></Card.Title>
 	  <Card.Text className={styles.chitiet}>
 	  	👉Hỗ trợ nợ xấu - Chỉ cần CMND/CCCD và ATM<br/>
 		🔥Giải ngân nhanh sau 30 phút<br/>
@@ -156,7 +147,6 @@ export default function Home() {
 <Card style={{paddingLeft:'0',paddingRight:'0'}}>
       <Card.Img variant="top" src="/image/3TRIEU.png" />
       <Card.Body>
-	  <Card.Title className={styles.font}><b>VAY 3.000.000</b></Card.Title>
 	  <Card.Text className={styles.chitiet}>
 	  	👉Hỗ trợ nợ xấu - Chỉ cần CMND/CCCD và ATM<br/>
 		🔥Giải ngân nhanh sau 30 phút<br/>
@@ -168,7 +158,6 @@ export default function Home() {
 <Card style={{paddingLeft:'0',paddingRight:'0'}}>
       <Card.Img variant="top" src="/image/5TRIEU.png" />
       <Card.Body>
-	  <Card.Title className={styles.font}><b>VAY 5.000.000</b></Card.Title>
 	  <Card.Text className={styles.chitiet}>
 		👉Hỗ trợ nợ xấu - Chỉ cần CMND/CCCD và ATM<br/>
 		🔥Giải ngân nhanh sau 30 phút<br/>
@@ -180,7 +169,6 @@ export default function Home() {
 <Card style={{paddingLeft:'0',paddingRight:'0'}}>
       <Card.Img variant="top" src="/image/6trieu.png" />
       <Card.Body>
-	  <Card.Title className={styles.font}><b>VAY 6.000.000</b></Card.Title>
 	  <Card.Text className={styles.chitiet}>
 		👉Hỗ trợ nợ xấu - Chỉ cần CMND/CCCD và ATM<br/>
 		🔥Giải ngân nhanh sau 30 phút<br/>

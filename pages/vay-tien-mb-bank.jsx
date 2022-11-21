@@ -32,6 +32,8 @@ export default function Home() {
                     ].map((variant) => (
                     <Alert key={variant} variant={variant}>
                     <a style={{textAlign:'center', fontSize:'15px', color:'black'}}>Sản phẩm Vay siêu nhanh - <b>Thấu chi không tài sản bảo đảm:</b> Là sản phẩm cho vay theo phương thức cấp Hạn mức thấu chi (HMTC) cho mục đích tiêu dùng cá nhân và không có tài sản bảo đảm, dành cho <b>Khách hàng cá nhân có Tài khoản thanh toán tại MB</b> và <b>đáp ứng các điều kiện của MB</b></a>
+                    <hr/>
+                    <Button variant="danger" href="https://l.linklyhq.com/l/um7U" style={{fontSize:'15px'}}>HỖ TRỢ MỞ TÀI KHOẢN</Button>
                     </Alert>
                     ))}
             </>                    
@@ -42,7 +44,7 @@ export default function Home() {
 
         {/*ẢNH + NÚT BẤM HỖ TRỢ MỞ TÀI KHOẢN */}
     <Card style={{ width: '22rem', margin:'0', marginBottom:'50px' }}>
-    <Card.Img variant="top" src="image/NHMB.jpeg" />
+    <Card.Img variant="top" src="image/mb.png" />
       <Card.Body>
         <Card.Title style={{fontSize:'15px'}}><b>NGÂN HÀNG TMCP QUÂN ĐỘI</b></Card.Title>
         <Card.Text style={{fontSize:'14px'}}>
