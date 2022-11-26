@@ -3,6 +3,10 @@ import type { NextRequest } from 'next/server'
 
 export function middleware(request: NextRequest) {
   if (request.nextUrl.pathname.startsWith('/tu-van')) {
-    return NextResponse.rewrite(new URL('https://shorten.asia/bkT8ggUr'))
+    return NextResponse.rewrite(new URL('https://shorten.asia/bkT8ggUr'))    
+  }
+
+  if (request.nextUrl.pathname.startsWith('/dtd')) {
+    return NextResponse.rewrite(new URL('https://google.com'))    
   }
 }
