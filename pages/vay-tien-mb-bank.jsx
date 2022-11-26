@@ -43,7 +43,7 @@ export default function Home() {
 		</Row>
 
         {/*ẢNH + NÚT BẤM HỖ TRỢ MỞ TÀI KHOẢN */}
-    <Card style={{ width: '22rem', margin:'0', marginBottom:'50px' }}>
+    <Card style={{ marginBottom:'50px' }}>
     <Card.Img variant="top" src="image/mb.png" />
       <Card.Body>
         <Card.Title style={{fontSize:'15px'}}><b>Ngân hàng TMCP Quân Đội</b></Card.Title>
@@ -98,7 +98,7 @@ export default function Home() {
 			</Row>
 
       {/*ẢNH + NÚT BẤM HỖ TRỢ MỞ TÀI KHOẢN */}
-    <Card style={{ width: '22rem', margin:'0', marginBottom:'50px' }}>
+    <Card style={{marginBottom:'50px' }}>
     <Card.Img variant="top" src="image/mb.png" />
       <Card.Body>
         <Card.Title style={{fontSize:'15px'}}><b>Ngân hàng TMCP Quân Đội</b></Card.Title>
