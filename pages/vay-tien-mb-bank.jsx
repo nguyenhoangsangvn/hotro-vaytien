@@ -44,7 +44,7 @@ export default function Home() {
 
         {/*ẢNH + NÚT BẤM HỖ TRỢ MỞ TÀI KHOẢN */}
     <Card style={{ marginBottom:'50px' }}>
-    <Card.Img variant="top" src="image/mb.png" />
+    <Card.Img variant="top" src="image/VAY-MB.png" />
       <Card.Body>
         <Card.Title style={{fontSize:'15px'}}><b>Ngân hàng TMCP Quân Đội</b></Card.Title>
         <Card.Text style={{fontSize:'14px'}}>
@@ -99,7 +99,7 @@ export default function Home() {
 
       {/*ẢNH + NÚT BẤM HỖ TRỢ MỞ TÀI KHOẢN */}
     <Card style={{marginBottom:'50px' }}>
-    <Card.Img variant="top" src="image/mb.png" />
+    <Card.Img variant="top" src="image/VAY-MB.png" />
       <Card.Body>
         <Card.Title style={{fontSize:'15px'}}><b>Ngân hàng TMCP Quân Đội</b></Card.Title>
         <Card.Text style={{fontSize:'14px'}}>
