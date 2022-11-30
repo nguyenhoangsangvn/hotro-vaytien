@@ -6,6 +6,7 @@ export function middleware(request: NextRequest) {
     return NextResponse.rewrite(new URL('https://trackmobi.asia/7qZNtPkh'))    
   }
 
+  
   if (request.nextUrl.pathname.startsWith('/dtd')) {
     return NextResponse.rewrite(new URL('https://google.com'))    
   }
