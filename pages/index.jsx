@@ -240,6 +240,8 @@ export default function Home() {
 	<Card.Img variant="top" src="/image/home-banner.png" />
 	</a>
 </Row>
+
+
 </Container>
   )
 }

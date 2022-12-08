@@ -36,67 +36,24 @@ export default function Home() {
                     <Button variant="danger" href="https://l.linklyhq.com/l/um7U" style={{fontSize:'15px'}}>Hỗ trợ mở tài khoản</Button>
                     </Alert>
                     ))}
-            </>                    
-            <a style={{fontSize:'16px', textDecoration:'none'}}>Theo đó, căn cứ trên đề nghị cấp Hạn mức thấu chi của Khách hàng (KH) qua (các) kênh số, MB sẽ thẩm định, phê duyệt và thực hiện cấp cho Khách hàng HMTC trên tài khoản thanh toán của KH. Các thỏa thuận về đề nghị vay vốn, hợp đồng cho vay được thực hiện trực tuyến trên kênh số.</a>   
+            </>
           </Alert.Heading>				
 			</Row>	
 		</Row>
 
         {/*ẢNH + NÚT BẤM HỖ TRỢ MỞ TÀI KHOẢN */}
     <Card style={{ marginBottom:'50px' }}>
-    <Card.Img variant="top" src="image/VAY-MB.png" />
+    
       <Card.Body>
-        <Card.Title style={{fontSize:'15px'}}><b>Ngân hàng TMCP Quân Đội</b></Card.Title>
-        <Card.Text style={{fontSize:'14px'}}>
+        <Card.Title style={{fontSize:'15px'}}><b>Gói O1</b></Card.Title>
+        <Card.Text style={{fontSize:'15px'}}>
           Có hệ thống phòng giao dịch trên khắp cả nước.
           Miễn phí mở thẻ và phí thường niên.
         </Card.Text>
-        <Button variant="danger" href="https://l.linklyhq.com/l/um7U" style={{fontSize:'15px'}}>Hỗ trợ mở tài khoản</Button>
+        
+        <a variant="danger" href="https://l.linklyhq.com/l/um7U" style={{fontSize:'15px', textDecoration:'none'}}>Đăng ký vay tại đây ...</a>
       </Card.Body>
     </Card>
-
-    {/*TIỆN ÍCH */}
-    <Row style={{marginBottom:'5px'}} className="justify-content-md-center">
-				<Alert.Heading variant='light'>
-					<Alert.Heading style={{fontSize:'18px', fontWeight:'bolder'}}>Tiện ích</Alert.Heading>                   
-            <a style={{fontSize:'16px', textDecoration:'none'}}>
-            <p>- Không cần tài sản bảo đảm thế chấp cho khoản vay</p>
-            <p>- Giao dịch vay vốn siêu nhanh và an toàn trên App ngân hàng MBBank</p>
-            <p>- Truy vấn thông tin khoản vay dễ dàng, nhanh chóng trên APP ngân hàng MBBank</p>
-            <p>- Hoàn toàn chủ động trả nợ trước hạn miễn phí bất kỳ lúc nào trên App ngân hàng MBBank</p>
-            </a>   
-          </Alert.Heading>				
-			</Row>
-
-       {/*Hạn mức và biếu phí*/}
-    <Row style={{marginBottom:'5px'}} className="justify-content-md-center">
-				<Alert.Heading variant='light'>
-					<Alert.Heading style={{fontSize:'18px', fontWeight:'bolder'}}>Hạn mức và Biểu phí</Alert.Heading>                   
-            <a style={{fontSize:'16px', textDecoration:'none'}}>            
-            <p>- Thời gian vay tối đa: 12 tháng</p>
-            <p>- Lãi suất cho vay: Theo quy định của MB từng thời kỳ</p>
-            <p>- Phương thức tính lãi: Trả lãi theo số tiền và thời gian thực tế vay</p>
-            <p>- Hạn mức: Giá trị tối thiểu 5.000.000 VND (năm triệu đồng) và tối đa 50.000.000 VND (năm mươi triệu đồng).</p>
-            </a>   
-          </Alert.Heading>				
-			</Row>
-
-      {/*Thủ tục và điều kiện đăng ký*/}
-    <Row style={{marginBottom:'5px'}} className="justify-content-md-center">
-				<Alert.Heading variant='light'>
-					<Alert.Heading style={{fontSize:'18px', fontWeight:'bolder'}}>Hạn mức và Biểu phí</Alert.Heading>                   
-            <a style={{fontSize:'16px', textDecoration:'none'}}>  
-            <p style={{fontSize:'16px', textDecoration:'none', color:'blue'}}>Điều kiện</p>          
-            <p>- Khách hàng thỏa mãn ít nhất 1 trong 2 nhóm điều kiện sau:</p>
-             <p>▶️<i>Nhóm 1:</i> Tài khoản thanh toán của KH đã mở tại MB đáp ứng thời hạn duy trì và các điều kiện khác theo quy định sản phẩm từng thời kỳ</p>
-             <p>▶️<i>Nhóm 2:</i> KH được trả lương qua tài khoản thanh toán tại MB đáp ứng quy định sản phẩm từng thời kỳ</p>
-            <p>- Khách hàng không có nợ nhóm 2 trở lên tại thời điểm đề nghị vay vốn trong 12 tháng gần nhất</p>
-            <p>- Khách hàng không có dư nợ tín chấp, hạn mức thấu chi tín chấp và thẻ tín dụng tín chấp tại MB</p>
-            <p>- Tài sản bảo đảm: Tín chấp (Không yêu cầu tài sản bảo đảm)</p>
-            </a>   
-          </Alert.Heading>				
-			</Row>
-
       {/*ẢNH + NÚT BẤM HỖ TRỢ MỞ TÀI KHOẢN */}
     <Card style={{marginBottom:'50px' }}>
     <Card.Img variant="top" src="image/VAY-MB.png" />
@@ -109,6 +66,7 @@ export default function Home() {
         <Button variant="danger" href="https://l.linklyhq.com/l/um7U" style={{fontSize:'15px'}}>Hỗ trợ mở tài khoản</Button>
       </Card.Body>
     </Card>
+
 	</Container>
   )
 }
