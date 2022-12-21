@@ -53,4 +53,8 @@ export function middleware(request: NextRequest) {
   if (request.nextUrl.pathname.startsWith('/mb')) {
     return NextResponse.rewrite(new URL('https://mfast.vn/cai-dat/510863'))    
   }
+
+  if (request.nextUrl.pathname.startsWith('/cham-diem-tin-dung')) {
+    return NextResponse.rewrite(new URL('https://sites.google.com/view/crezu-new'))    
+  }
 }
