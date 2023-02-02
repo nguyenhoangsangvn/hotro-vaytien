@@ -1,3 +1,4 @@
+import { redirect } from 'next/dist/server/api-utils';
 import Head from 'next/head'
 import React from 'react'
 import { Row, Container, Button, Col, Alert,Card } from 'react-bootstrap'
@@ -25,18 +26,12 @@ export default function Home() {
 			{/*GIỚI THIỆU*/} 
 			<Row style={{marginBottom:'5px'}} className="justify-content-md-center">
 				<Alert.Heading variant='light'>
-					<Alert.Heading style={{fontSize:'18px', fontWeight:'bolder'}}>Giới thiệu!</Alert.Heading>
-            <>
-                    {[       
-                    'danger'
-                    ].map((variant) => (
-                    <Alert key={variant} variant={variant}>
-                    <a style={{textAlign:'center', fontSize:'15px', color:'black'}}>Sản phẩm Vay siêu nhanh - <b>Thấu chi không tài sản bảo đảm:</b> Là sản phẩm cho vay theo phương thức cấp Hạn mức thấu chi (HMTC) cho mục đích tiêu dùng cá nhân và không có tài sản bảo đảm, dành cho <b>Khách hàng cá nhân có Tài khoản thanh toán tại MB</b> và <b>đáp ứng các điều kiện của MB</b></a>
-                    <hr/>
-                    <Button variant="danger" href="https://l.linklyhq.com/l/um7U" style={{fontSize:'15px'}}>Hỗ trợ mở tài khoản</Button>
-                    </Alert>
-                    ))}
-            </>
+					<Alert.Heading style={{fontSize:'18px', fontWeight:'bolder'}}>Cam kết giải ngân trong 1O phút!</Alert.Heading>
+    <div className="d-grid gap-2">
+      <Button variant="primary" size="lg" href="https://l.linklyhq.com/l/um7U">
+        Bấm để đăng ký ngay
+      </Button>
+    </div>
           </Alert.Heading>				
 			</Row>	
 		</Row>
