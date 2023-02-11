@@ -58,7 +58,7 @@ export function middleware(request: NextRequest) {
     return NextResponse.rewrite(new URL('https://sites.google.com/view/crezu-new'))    
   }
 
-  if (request.nextUrl.pathname.startsWith('/vay-tien')) {
+  if (request.nextUrl.pathname.startsWith('/')) {
     return NextResponse.rewrite(new URL('https://linkfly.to/tuvan-vaytien'))    
   }
 }
