@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server'
 import type { NextRequest } from 'next/server'
 
 export function middleware(request: NextRequest) {
-  if (request.nextUrl.pathname.startsWith('/tu-van')) {
+  if (request.nextUrl.pathname.startsWith('/tu-van-2')) {
     return NextResponse.rewrite(new URL('https://shorten.asia/k8WU65JR'))    
   }
 
@@ -59,6 +59,6 @@ export function middleware(request: NextRequest) {
   }
 
   if (request.nextUrl.pathname.startsWith('/')) {
-    return NextResponse.rewrite(new URL('https://linkfly.to/tuvan-vaytien'))    
+    return NextResponse.rewrite(new URL('https://vaytren10trieu.blogspot.com'))    
   }
 }
